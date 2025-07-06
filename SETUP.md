@@ -20,10 +20,10 @@
 
 2. **Connect Local Repository:**
    ```bash
-   # Replace YOUR_USERNAME with your actual GitHub username
-   git remote set-url origin https://github.com/YOUR_USERNAME/aurix.git
+   # Repository URL (already configured)
+   git remote set-url origin https://github.com/Terry-Mathew/Aurix.git
    
-   # Push the initial commit
+   # Push the initial commit (already completed)
    git push -u origin master
    ```
 
@@ -117,10 +117,10 @@ yarn dev
 ## ✅ Setup Checklist
 
 ### GitHub Setup
-- [ ] Create GitHub repository named `aurix`
-- [ ] Connect local repository to GitHub remote
-- [ ] Push initial commit to GitHub
-- [ ] Verify repository is accessible
+- [x] ✅ Create GitHub repository named `aurix`
+- [x] ✅ Connect local repository to GitHub remote
+- [x] ✅ Push initial commit to GitHub
+- [x] ✅ Verify repository is accessible at https://github.com/Terry-Mathew/Aurix
 
 ### Supabase Setup
 - [ ] ✅ Supabase project "AURIX" created and active
