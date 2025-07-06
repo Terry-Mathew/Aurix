@@ -77,29 +77,8 @@
 
 /* DebutHub Typography Styles */
 @layer components {
-  .text-h1 {
-    @apply text-h1 text-primary-charcoal;
-  }
-  
-  .text-h2 {
-    @apply text-h2 text-primary-charcoal;
-  }
-  
-  .text-h3 {
-    @apply text-h3 text-primary-charcoal;
-  }
-  
-  .text-body-large {
-    @apply text-body-large text-secondary-navy;
-  }
-  
-  .text-body {
-    @apply text-body text-secondary-navy;
-  }
-  
-  .text-caption {
-    @apply text-caption text-input-placeholder;
-  }
+  /* Typography utilities are defined in Tailwind config */
+  /* Use: text-h1, text-h2, text-h3, text-body-large, text-body, text-caption directly */
   
   /* Button Base Styles */
   .btn-base {
