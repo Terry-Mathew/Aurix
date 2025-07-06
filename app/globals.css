@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 84% 4.9%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 84% 4.9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background-white text-primary-charcoal font-inter;
+  }
+}
+
+/* DebutHub Typography Styles */
+@layer components {
+  .text-h1 {
+    @apply text-h1 text-primary-charcoal;
+  }
+  
+  .text-h2 {
+    @apply text-h2 text-primary-charcoal;
+  }
+  
+  .text-h3 {
+    @apply text-h3 text-primary-charcoal;
+  }
+  
+  .text-body-large {
+    @apply text-body-large text-secondary-navy;
+  }
+  
+  .text-body {
+    @apply text-body text-secondary-navy;
+  }
+  
+  .text-caption {
+    @apply text-caption text-input-placeholder;
+  }
+  
+  /* Button Base Styles */
+  .btn-base {
+    @apply inline-flex items-center justify-center rounded-button text-button font-semibold transition-all duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply btn-base bg-secondary-warm-orange text-primary-white px-4 py-3 hover:bg-orange-600 hover:scale-[1.02] hover:shadow-md focus:ring-secondary-warm-orange;
+  }
+  
+  .btn-secondary {
+    @apply btn-base border-[1.5px] border-secondary-warm-orange text-secondary-warm-orange bg-transparent px-4 py-3 hover:bg-secondary-warm-orange hover:text-primary-white hover:scale-[1.02] focus:ring-secondary-warm-orange;
+  }
+  
+  .btn-text {
+    @apply btn-base text-secondary-navy bg-transparent px-2 py-1 hover:bg-accent-soft-gray hover:scale-[1.02] focus:ring-secondary-navy;
+  }
+  
+  /* Input Base Styles */
+  .input-base {
+    @apply h-12 w-full rounded-input bg-input-background border border-input-border px-3 py-3 text-body text-input-text placeholder:text-input-placeholder transition-colors duration-200 focus:outline-none focus:border-input-focus focus:ring-1 focus:ring-input-focus;
+  }
+  
+  /* Card Base Styles */
+  .card-base {
+    @apply bg-primary-white rounded-card shadow-card p-6 transition-all duration-200;
+  }
+  
+  .card-hover {
+    @apply hover:shadow-card-hover hover:scale-[1.02];
+  }
+  
+  /* Animation Classes */
+  .animate-entrance {
+    @apply animate-fade-slide-up;
+  }
+  
+  .animate-modal {
+    @apply animate-scale-in;
+  }
+} 
