@@ -11,7 +11,7 @@ export function Header() {
     <header className="border-b border-accent-soft-gray bg-primary-white">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="text-h3 text-secondary-navy font-bold">
-          DebutHub
+          Aurix
         </Link>
         
         <nav className="flex items-center space-x-4">

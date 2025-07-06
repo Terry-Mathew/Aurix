@@ -7,7 +7,7 @@ export default function SignInPage() {
       <div className="max-w-md w-full space-y-8">
         <div className="text-center">
           <Link href="/" className="text-2xl font-bold text-gray-900">
-            DebutHub
+            Aurix
           </Link>
           <h2 className="mt-6 text-3xl font-extrabold text-gray-900">
             Sign in to your account

@@ -16,7 +16,7 @@ module.exports = {
       },
     },
     extend: {
-      // DebutHub Color Palette
+      // Aurix Color Palette
       colors: {
         // Primary Colors
         primary: {

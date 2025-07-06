@@ -1,6 +1,6 @@
-# DebutHub
+# Aurix
 
-A digital portfolio editor and networking tool that allows users to create unified digital identities showcasing personal and professional information through customizable, shareable profiles.
+A digital portfolio platform that empowers professionals and creatives to showcase their work, connect with opportunities, and share their story through stunning, customizable portfolios.
 
 ## Features
 
@@ -32,7 +32,7 @@ A digital portfolio editor and networking tool that allows users to create unifi
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd debuthub
+cd aurix
 ```
 
 2. Install dependencies:
@@ -77,7 +77,7 @@ The application uses the following main tables:
 ## Project Structure
 
 ```
-debuthub/
+aurix/
 ├── app/                    # Next.js app router
 │   ├── auth/              # Authentication pages
 │   ├── dashboard/         # Protected dashboard

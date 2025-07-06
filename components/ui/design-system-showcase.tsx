@@ -8,7 +8,7 @@ export function DesignSystemShowcase() {
   return (
     <div className="p-8 space-y-12 bg-background-light min-h-screen">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-h1 text-center mb-8">DebutHub Design System</h1>
+        <h1 className="text-h1 text-center mb-8">Aurix Design System</h1>
         
         {/* Typography Section */}
         <section className="space-y-6">

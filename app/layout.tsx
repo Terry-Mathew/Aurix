@@ -6,8 +6,8 @@ import { AuthProvider } from '@/components/auth/AuthProvider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'DebutHub - Your Digital Identity',
-  description: 'Create a unified digital profile that showcases every part of who you are',
+  title: 'Aurix - Your Digital Portfolio',
+  description: 'Create stunning professional portfolios that showcase your work and connect with opportunities',
 }
 
 export default function RootLayout({

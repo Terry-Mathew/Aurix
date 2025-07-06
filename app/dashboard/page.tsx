@@ -93,9 +93,9 @@ export default function DashboardPage() {
           <div className="mt-8">
             <Card>
               <CardHeader>
-                <CardTitle>Welcome to DebutHub!</CardTitle>
+                <CardTitle>Welcome to Aurix!</CardTitle>
                 <CardDescription>
-                  Get started by creating your first profile section
+                  Get started by creating your first portfolio section
                 </CardDescription>
               </CardHeader>
               <CardContent>

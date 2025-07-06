@@ -70,7 +70,7 @@ export default function ProfilePage() {
             The profile you're looking for doesn't exist or has been made private.
           </p>
           <a href="/" className="text-blue-600 hover:text-blue-500">
-            Go to DebutHub
+            Go to Aurix
           </a>
         </div>
       </div>
@@ -107,7 +107,7 @@ export default function ProfilePage() {
             <div className="border-t pt-6">
               <h2 className="text-xl font-semibold text-gray-900 mb-4">About</h2>
               <p className="text-gray-600">
-                This profile is powered by DebutHub - a platform for creating dynamic digital identities.
+                This profile is powered by Aurix - a platform for creating stunning digital portfolios.
               </p>
             </div>
           </div>

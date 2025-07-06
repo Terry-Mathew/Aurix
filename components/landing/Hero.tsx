@@ -6,14 +6,14 @@ export function Hero() {
     <section className="py-12 px-4 text-center bg-secondary-blush-pale-orange">
       <div className="container mx-auto max-w-4xl animate-entrance">
         <h1 className="text-h1 mb-6">
-          Your Digital Identity
+          Your Digital Portfolio
           <br />
-          <span className="text-secondary-warm-orange">As Dynamic As You</span>
+          <span className="text-secondary-warm-orange">Starts Here</span>
         </h1>
         
         <p className="text-body-large text-secondary-navy mb-8 max-w-2xl mx-auto">
-          Create a unified digital profile that showcases every part of who you are - 
-          professional, personal, creative, and everything in between.
+          Create stunning professional portfolios in minutes. Showcase your work, connect 
+          with opportunities, and share your story with <span className="text-secondary-warm-orange font-semibold">Aurix</span>.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
